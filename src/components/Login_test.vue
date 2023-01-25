@@ -1,8 +1,6 @@
 <template>
   <div class="login-page">
-    <div class="banner">
-      <img src="@/assets/BigByteLogo.png" alt="" class="logo-bigbyte" />
-    </div>
+    <div class="banner"></div>
     <div class="context">
       <img src="@/assets/func_language.png" alt="" class="func-language" />
       <div class="login-form"></div>
@@ -16,10 +14,6 @@
   export default {
     name: 'LoginPage',
     props: {
-      bigByteLogo: {
-        type: String,
-        default: '@/assets/BigByteLogo.png',
-      },
       funcLanguage: {
         type: String,
         default: '@/assets/func_language.png',
@@ -58,10 +52,7 @@
     height: 162px;
     align-self: stretch;
   }
-  .logo-bigbyte {
-    width: 389px;
-    height: 141px;
-  }
+
   .context {
     background-color: $transparent-medium-aquamarine;
     padding: 25px 110px 84px 25px;

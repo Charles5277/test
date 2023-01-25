@@ -1,0 +1,11 @@
+{
+  "subTitle": {
+    "installedCliPlugins": "Install CLI Plugins",
+    "essentialLinks": "Essential Links",
+    "ecosystem": "Ecosystem"
+  },
+  "installedCliPlugins": {
+    "babel": "babel",
+    "eslint": "eslint"
+  }
+}

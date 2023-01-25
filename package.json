@@ -1,0 +1,34 @@
+{
+  "name": "bigbyte-central-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "yarn vite --host 0.0.0.0",
+    "build": "yarn vite build",
+    "preview": "yarn vite preview",
+    "lint": "eslint . --ext .vue,.js, --fix",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(html|vue|js|json|cjs)\""
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "babel-eslint": "^10.1.0",
+    "pinia": "^2.0.29",
+    "sass": "^1.57.1",
+    "vue": "^3.2.45",
+    "vue-eslint-parser": "^9.1.0",
+    "vue-i18n": "^9.3.0-beta.16",
+    "vue-router": "^4.1.6",
+    "vuetify": "^3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.3",
+    "stylelint-config-prettier": "^9.0.4",
+    "vite": "^4.0.0"
+  }
+}
